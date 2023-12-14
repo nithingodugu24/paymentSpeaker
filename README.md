@@ -1,6 +1,6 @@
 # DIY Speaker with ESP8266 NodeMCU
 
-This repository contains the code for a Do-It-Yourself (DIY) speaker project using an ESP8266 NodeMCU, a DFPlayer Mini, and a speaker. The speaker is designed to play voice alerts when a specific message is received in a periodic HTTP request. The project utilizes the capabilities of the ESP8266, allowing for voice notifications based on incoming data.
+This repository contains the code for a (DIY) speaker project using an ESP8266 NodeMCU,basically it is like a Paytm,Bhartpe,GooglePay Payment Notification speaker.This is made up with a DFPlayer Mini, and a speaker. The speaker is designed to play voice alerts when a specific message is received in a periodic HTTP request (You can use Paytm Business / Phonepe API to fetch the transactions and expose the data to an endpoint so the ESP8266 can connect to that endpoint and fetch latest transactions. And also it stores the Transaction IDs in a csv file to prevent repetative announcement of earlier transactions. You will need a SD card in that there should a folder (mp3) and inside it a b bunch of mp3 files used for the announcement of Transaction. You can simply download the mp3 folder from this repository and copy that folder into SD Card insert it in DFPlayer mini.
 
 ## Components Used
 - **ESP8266 NodeMCU**: WiFi-enabled microcontroller.
@@ -34,7 +34,6 @@ The project is configured with the following parameters in the code:
 - `READYPAYMENT`: Sound indicating the system is ready to process payments.
 - `NOTIFICATION`: Notification sound for new messages.
 - `IHAVERECIEVED`: Acknowledgment sound.
-- `SRISAI`: Custom sound identifier.
 - `RUPEES`: Sound indicating a currency unit.
 - `THOUSAND`, `HUNDRED`: Numeric sounds.
 - `AND`: Sound indicating the conjunction "and."
