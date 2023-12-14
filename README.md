@@ -8,7 +8,7 @@ This repository contains the code for a Do-It-Yourself (DIY) speaker project usi
 - **Speaker**: Used for playing voice alerts.
 
 ## Project Description
-The system periodically sends an HTTP request to a specified server (`api.srisaionline.co.in`) to check for new messages. Upon receiving a response, the program processes the data and plays corresponding voice alerts. The voice alerts are stored as MP3 files on the DFPlayer Mini.
+The system periodically sends an HTTP request to a specified server `api.testing.com`(Replace it with your own web address ) to check for new messages. Upon receiving a response, the program processes the data and plays corresponding voice alerts. The voice alerts are stored as MP3 files on the DFPlayer Mini.
 
 ## Configuration
 The project is configured with the following parameters in the code:
@@ -42,4 +42,4 @@ The project is configured with the following parameters in the code:
 
 ## Notes
 - The code includes error handling and attempts to reconnect if the server connection fails.
-- Ensure you have the required libraries (`SoftwareSerial`, `DFMiniMp3`, `ESP8266WiFi`, `WiFiClientSecure`, `ArduinoJson`, `FS`) installed.
+- Ensure you have the required libraries (`SoftwareSerial`, [DFMiniMp3](https://github.com/Makuna/DFMiniMp3), `ESP8266WiFi`, `WiFiClientSecure`, `ArduinoJson`, `FS`) installed.
