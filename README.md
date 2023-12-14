@@ -1,0 +1,2 @@
+# paymentSpeaker
+NodeMCU Voice Notifier
